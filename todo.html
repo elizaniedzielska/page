@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <META charset="UTF-8" />
+    <TITLE>TODO</TITLE>
+    <link rel="stylesheet" href="style/main.css"/>
+    <link rel="stylesheet" href="style/mobile.css"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f996a2a060.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="nav">
+        <nav class="nav_bar">
+            <div class="hamburger">
+                <div id="line_1" class="line"></div>
+                <div id="line_2" class="line"></div>
+                <div id="line_3" class="line"></div>
+            </div>
+            <ul class="nav_list">
+                <li class="nav_item">
+                    <a href="home.html" class="nav_link font">Home</a>
+                </li>
+                <li class="nav_item">
+                    <a href="about.html" class="nav_link font">About</a>
+                </li>
+                <li class="nav_item">
+                    <a href="offer.html" class="nav_link font">Offer</a>
+                </li>
+                <li class="nav_item">
+                    <a href="todo.html" class="page_active nav_link font">Todo</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <section class="todo_section_one">
+        <div class="todo_container">
+            <h2 class="main_color">ToDo App</h2>
+        </div>
+        <div class="input">
+            <input type="text" name="todo_input" id="todo_input" class="input_element main_color" placeholder="Jakie masz zadanie?">
+            <button type="button" name="add_btn" id="add_btn" class="input_btn">+</button>
+        </div>
+        <div class="todo_list" id="list"></div>
+    </section>
+    <footer>
+        <p class="footer_text font">&copy; copyright 2020 - eliza niedzielska</p>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

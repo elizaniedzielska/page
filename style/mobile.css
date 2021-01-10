@@ -1,0 +1,639 @@
+@media (max-width: 1024px) {
+    /* NAV_MENU */
+    .nav_bar{
+        width: 80%;
+        right: -80%;
+    }
+
+    .nav_link{
+        font-size: 47px;
+    }
+
+    /* FOOTER */
+    footer{
+        margin-top: 0px;
+    }
+
+   .footer_text{
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+    
+    /* SECTION ONE */
+    .main_image{
+        width: 22%;
+    }
+
+    .main_box{
+        width: 79%;
+    }
+
+    section .main_box h1{
+        margin: 480px 0 0 40px;
+        
+    }
+
+    h1 p{
+        line-height: 75px;
+        font-size: 80px;
+    }
+
+    #main_description{
+        margin: 20px 10 0 20px;
+        font-size: 18px;
+    }
+
+    .main_btn{
+        font-size: 18px;
+    }
+
+    .scroll{
+        left: 50%;
+    }
+
+    video{
+        display: none;
+    }
+
+    /* SECTION TWO */
+    .text_two{
+        padding-top: 460px;
+    }
+
+    h2 p{
+        line-height: 55px;
+        font-size: 60px;
+    }
+
+    .main_info{
+        width: 90vw;
+        margin-left: 40px;
+    }
+
+    .main_info div{
+        font-size: 19px;
+        width: 43vw;
+        text-align: left;
+    }
+
+    .section_two .under_info{
+        font-size: 12px;
+        letter-spacing: 4px;
+    }
+
+
+    /* ABOUT */
+
+    /* ABOUT SECTION_ONE*/
+
+    .about{
+        font-size: 50px;
+    }
+
+    .lower_about{
+        font-size: 11px;
+    }
+
+    .photo_one{
+        width: 15vw;
+        margin-left: 40px;
+    }
+
+    .photo_two{
+        width: 18vw;
+        margin-right: 40px;
+    }
+
+    .photo_three{
+        width: 15vw;
+        margin-left: 40px;
+    }
+
+    .photo_four{
+        width: 18vw;
+        margin-right: 40px;
+    }
+
+    .about_first_heading{
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .about_second_heading{
+        font-size: 36px;
+        letter-spacing: 6px;
+    }
+
+    .about_text{
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    #about_right_photo{
+        width: 90%;
+        left: 10%;
+    }
+
+    #about_left_photo{
+        width: 90%;
+    }
+
+    .about_text_left{
+        width: 75vw;
+    }
+
+    .about_text_right{
+        width: 75vw;
+    }
+
+    .about_btn{
+        font-size: 18px;
+    }
+
+    
+    /* OFFER */
+
+    /* OFFER SECTION_ONE*/
+    .offer_heading{
+        font-size: 48px;
+    }
+
+    .offer_photo{
+        width: 80%;
+        height: 20vh;
+    }
+
+    h4{
+        font-size: 34px;
+    }
+
+    h4 > .main_above{
+        font-size: 15px;
+    }
+
+    .list_item{
+        font-size: 18px;
+    }
+
+    .offer_description{
+        width: 100%;
+        margin: 60px auto 90px auto;
+        
+    }
+
+    .offer_main{
+        width: 35vw;
+        margin-left: 100px;
+    }
+
+    .offer_text{
+        font-size: 20px;
+        width: 45vw;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    /* TODO */
+
+    /* TODO*/
+    .input > button{
+        width: 47px;
+        height: 47px;
+        font-size: 28px;
+    }
+    
+    .item{
+        height: 6vh;
+    }
+    
+    .item > input{
+        margin-top: 18px;
+        height: 3vh;
+        font-size: 16px;
+    }
+    
+    .item_text{
+        margin-top: 25px;
+        font-size: 15px;
+    }
+    
+    .action_btn{
+        font-size: 10px;
+        width: 80px;
+        height: 35px;
+        margin-left: 10px;
+    }
+    
+    .action_btns{
+        margin-top: 20px;
+        margin-right: 7px;
+    }
+    
+    .update_btn{
+        font-size: 14px;
+        color: blueviolet;
+        letter-spacing: 3px;
+        border: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+    /* NAV_MENU */
+    .nav_link{
+        font-size: 38px;
+    }
+
+    /* FOOTER */
+
+   .footer_text{
+        font-size: 12px;
+    }
+    
+    /* SECTION ONE */
+    section .main_box h1{
+        margin: 320px 0 0 40px;
+        
+    }
+
+    h1 p{
+        line-height: 55px;
+        font-size: 60px;
+    }
+
+    #main_description{
+        margin: 20px 10 0 20px;
+        font-size: 14px;
+    }
+
+    .main_btn{
+        font-size: 14px;
+    }
+
+    /* SECTION TWO */
+    .text_two{
+        padding-top: 260px;
+    }
+
+    h2 p{
+        line-height: 50px;
+        font-size: 50px;
+    }
+
+    .main_info div{
+        font-size: 14px;
+        width: 43vw;
+        text-align: left;
+    }
+
+    .section_two .under_info{
+        font-size: 10px;
+        letter-spacing: 4px;
+    }
+
+
+    /* ABOUT */
+
+    /* ABOUT SECTION_ONE*/
+
+    .about{
+        font-size: 48px;
+    }
+
+    .lower_about{
+        font-size: 10px;
+    }
+
+    .about_first_heading{
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+    .about_second_heading{
+        font-size: 25px;
+        letter-spacing: 6px;
+    }
+
+    .about_text{
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+    .about_btn{
+        font-size: 12px;
+    }
+
+    
+    /* OFFER */
+
+    /* OFFER SECTION_ONE*/
+    .offer_heading{
+        font-size: 45px;
+    }
+
+    h4{
+        font-size: 28px;
+    }
+
+    h4 > .main_above{
+        font-size: 12px;
+    }
+
+    .list_item{
+        font-size: 13px;
+    }
+
+    .offer_main{
+        width: 40vw;
+        margin-left: 60px;
+    }
+
+    .offer_text{
+        font-size: 15px;
+        width: 40vw;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    /* TODO */
+
+    /* TODO*/
+    .input > button{
+        width: 38px;
+        height: 38px;
+        font-size: 26px;
+    }
+    
+    .item{
+        margin-left: 20%;
+        width: 60vw;
+    }
+    
+    .item > input{
+        margin-top: 15px;
+        font-size: 13px;
+    }
+    
+    .item_text{
+        margin-top: 18px;
+        font-size: 13px;
+    }
+    
+    .action_btn{
+        font-size: 9px;
+        width: 65px;
+        height: 30px;
+        border: 3px solid blueviolet;
+    }
+    
+    .action_btns{
+        margin-top: 15px;
+    }
+    
+    .update_btn{
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 560px) {
+    /* NAV_MENU */
+    .nav_link{
+        font-size: 28px;
+    }
+
+    /* FOOTER */
+    footer{
+        margin-top: 240px;
+    }
+
+   .footer_text{
+        font-size: 8px;
+        letter-spacing: 3px;
+    }
+    
+    /* SECTION ONE */
+    section .main_box h1{
+        margin: 120px 0 0 40px;
+        
+    }
+
+    h1 p{
+        line-height: 55px;
+        font-size: 40px;
+    }
+
+    #main_description{
+        margin: 20px 10 0 20px;
+        font-size: 12px;
+    }
+
+    .main_btn{
+        font-size: 12px;
+    }
+
+    .scroll{
+        left: 40%;
+    }
+
+    /* SECTION TWO */
+    .text_two{
+        padding-top: 130px;
+    }
+
+    h2 p{
+        line-height: 50px;
+        font-size: 40px;
+    }
+
+    .main_info{
+        width: 90vw;
+        display: block;
+        margin-left: 40px;
+    }
+
+    .main_info div{
+        font-size: 12px;
+        width: 80vw;
+        text-align: left;
+    }
+
+    .section_two .under_info{
+        font-size: 8px;
+        letter-spacing: 3px;
+    }
+
+    .info_two{
+        margin-top: 20px;
+    }
+
+    /* ABOUT */
+
+    /* ABOUT SECTION_ONE*/
+    .about_first_heading{
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+    .about_second_heading{
+        font-size: 20px;
+        letter-spacing: 6px;
+    }
+
+    .about_text{
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+
+    /* OFFER */
+
+    /* OFFER SECTION_ONE*/
+    .offer_photo{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .list_item{
+        font-size: 12px;
+    }
+
+    .offer_description{
+        width: 100%;
+        margin: 60px auto 90px auto;
+        display: block;
+    }
+
+    .offer_main{
+        width: 80vw;
+        margin-left: 60px;
+    }
+
+    .offer_text{
+        font-size: 14px;
+        width: 80vw;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+
+     /* TODO */
+
+    /* TODO*/
+    #todo_input{
+        font-size: 13px;
+        letter-spacing: 2px;
+        border: 2px solid blueviolet;
+        margin-bottom: 30px;
+    }
+
+    .input > button{
+        width: 26px;
+        height: 26px;
+        font-size: 20px;
+    }
+    
+    .item{
+        margin-left: 12%;
+        width: 75vw;
+    }
+    
+    .item > input{
+        margin-left: 6px;
+        margin-top: 10px;
+        font-size: 10px;
+        width: 27vw;
+    }
+    
+    .item_text{
+        margin-left: 7px;
+        margin-top: 13px;
+        font-size: 10px;
+    }
+    
+    .action_btn{
+        font-size: 6px;
+        width: 45px;
+        height: 17px;
+        border: 2px solid blueviolet;
+    }
+    
+    .action_btns{
+        margin-top: 9px;
+    }
+    
+    .update_btn{
+        font-size:7px;
+        border: none;
+    }
+
+}
+
+
+@media (max-width: 360px) {
+     
+    /* SECTION TWO */
+    
+     .section_two .under_info{
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+
+    /* ABOUT */
+
+    /* ABOUT SECTION_ONE*/
+    .photo_one{
+        width: 15vw;
+    }
+
+    .photo_two{
+        width: 18vw;
+    }
+
+    .photo_three{
+        width: 15vw;
+    }
+
+    .photo_four{
+        width: 18vw;
+    }
+
+    /* TODO */
+
+    /* TODO*/
+    #todo_input{
+        font-size: 12px;
+    }
+
+    .input > button{
+        width: 24px;
+        height: 24px;
+        font-size: 17px;
+    }
+    
+    .item > input{
+        margin-left: 5px;
+        margin-top: 8px;
+        font-size: 8px;
+    }
+    
+    .item_text{
+        margin-top: 10px;
+        font-size: 9px;
+    }
+    
+    .action_btn{
+        font-size: 5px;
+        width: 42px;
+        height: 15px;
+    }
+    
+    .action_btns{
+        margin-top: 6px;
+    }
+    
+    .update_btn{
+        font-size:6px;
+    }
+}
+
